@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>박스모델</title>
+        <style>
+        /*
+        border: 박스 생성
+        width: 박스 넓이
+        height: 박스 높이
+        padding: 엘리먼트의 상, 하, 좌, 우 여백을 한꺼번에 지정
+        margin: 엘리먼트와 엘리먼트 사이의 간격을 지정
+        */
+            #selected{  /* #id: 해당 list를 지정 */
+                border:1px red solid;
+                padding:30px;
+                width:50px;
+            }
+            #extra{
+                border:1px blue solid;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>HTML</li>
+            <li id="selected">CSS</li>  <!--id: list의 이름을 지정-->
+            <li id="extra">JavaScript</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+/*link된 모든 html에 적용되는 css*/
+header{
+    border-bottom:1px solid gray;
+    padding:20px;
+}
+nav{
+    border-right:1px solid gray;
+    width:200px;
+    height:600px;
+    float:left;
+}
+nav ol{
+    list-style:none;
+}
+h2{
+    font-size:30px;
+    color:red;
+}
