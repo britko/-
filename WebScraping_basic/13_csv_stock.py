@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 url = "https://finance.naver.com/sise/sise_market_sum.nhn?sosok=0&page="
 
 #  newline="": 공백 행을 삭제
-filename = r"C:\Users\pc\Desktop\고영국\개발\웹\WebScraping_basic\크롤링 데이터\시가 총액\시가총액1-200.csv"
+filename = r"C:\Users\pc\Desktop\고영국\개발\웹\WebScraping_basic\크롤링 데이터\13_시가총액1-200.csv"
 f = open(filename, "w", encoding="utf-8-sig", newline="")
 writer = csv.writer(f)
 

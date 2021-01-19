@@ -25,7 +25,7 @@ for year in range(2015, 2020):
         image_res.raise_for_status()
 
         # with open: ??????????????
-        with open(r"C:\Users\pc\Desktop\고영국\개발\웹\WebScraping_basic\크롤링 데이터\영화 사진\movie_{}_{}.jpg".format(year, idx+1), "wb") as f:
+        with open(r"C:\Users\pc\Desktop\고영국\개발\웹\WebScraping_basic\크롤링 데이터\12_영화 사진\movie_{}_{}.jpg".format(year, idx+1), "wb") as f:
             f.write(image_res.content)
 
         if idx >= 4:    # 상위 5개 이미지까지만 다운로드
