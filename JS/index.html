@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>인덱스 파일</title>
+        <script src="js01-03.js"></script>
+    </head>
+    <body>
+        <hr>본문은 여기에 표시<br>
+        <script>
+            // 대화상자 인터페이스
+            /*
+            alert("전달사항.")
+
+            answer = confirm("수강신청을 하시겠습니까?")
+            if(answer == true)
+            document.write("등록완료<br>")
+            else
+            document.write("취소<br>")
+            
+            prom = prompt("입력하셈<br>")
+            document.write(prom)
+            */
+
+            // switch문
+            today = new Date()
+            week = today.getDay()
+            switch(week){
+                case 0: document.bgColor = "purple"
+                break
+                case 1: document.bgColor = "red"
+                break
+                case 2: document.bgColor = "orange"
+                break
+                case 3: document.bgColor = "yellow"
+                break
+                case 4: document.bgColor = "green"
+                break
+                case 5: document.bgColor = "blue"
+                break
+                case 6: document.bgColor = "darkblue"
+                break
+            }
+
+            // do while문
+            num = 1
+            do{
+                document.write(num + "\t")
+                num++
+            } while(num <= 5)
+
+        </script>
+    </body>
+</html>
